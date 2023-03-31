@@ -3,7 +3,7 @@ import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 import PlayButton from '@/components/PlayButton';
 import useBillboard from '@/hooks/useBillboard';
-import useInfoModalStore from '../hooks/useInfoModalStore';
+import useInfoModalStore from '../hooks/useInfoModal';
 
 const Billboard: React.FC = () => {
     const { openModal } = useInfoModalStore();
@@ -12,7 +12,6 @@ const Billboard: React.FC = () => {
     const handleOpenModal = useCallback(() => {
         openModal(data?.id);
     }, [openModal, data?.id]);
-
 
 
     return (
@@ -45,7 +44,7 @@ const Billboard: React.FC = () => {
                             hover:bg-opacity-20
                             transition
                             "
-                    >
+                            >
                         <AiOutlineInfoCircle className="w-4 md:w-7 mr-1" />
                         More Info
                     </button>
