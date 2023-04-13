@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
-## Demo - [Netflix] (https://netflix-clone-inderjeet0202.vercel.app/auth)
+## Demo - [Netflix](https://netflix-clone-inderjeet0202.vercel.app/auth)
 
 ## Getting Started
 
